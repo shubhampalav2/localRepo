@@ -8,7 +8,8 @@ export default function App() {
     name: "Ganesh Pawar",
     Experience: 10,
     Age: 33,
-    Role:"Full Stack Web Developer"
+    Role: "Full Stack Web Developer",
+    Company:"Adobe",
   }
   return (
     <>
@@ -17,6 +18,7 @@ export default function App() {
         <p>Name of the employee is <u>{emp.name}</u></p>
         <p>He has <b>{emp.Experience} years</b> of experience in {emp.Role} Role.</p>
         <p>He age is {emp.Age}</p>
+        <p>He works in {emp.Company} Company.</p>
       </div> 
       <Main></Main>
       <Footer></Footer>
